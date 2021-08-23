@@ -41,8 +41,6 @@ def upload_image():
         # print("Image is saved")
         # path = "static/images/uploads/"+image.filename
         # img = image.load_img(path)
-        print("loading model")
-        get_model()
         processed_image = preprocess_image(image, target_size=(224, 224))
         prediction = predict(processed_image)
         print(prediction)
@@ -61,6 +59,8 @@ def get_model():
     model = load_model('mobile_net_after_training_cowvsbuffalo.h5')
     print(" * Model loaded!")
 
+print("loading model")
+get_model()
 
 def preprocess_image(img, target_size):
     if img.mode != "RGB":
