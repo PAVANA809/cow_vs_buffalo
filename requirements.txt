@@ -95,8 +95,6 @@ prompt-toolkit==3.0.18
 protobuf==3.17.3
 pyasn1==0.4.8
 pyasn1-modules==0.2.8
-PyAudio @ file:///C:/Users/Pavana%20H%20A/pipwin/PyAudio-0.2.11-cp39-cp39-win_amd64.whl
-PyAutoGUI==0.9.52
 pycparser==2.20
 pydantic==1.8.1
 pyfiglet==0.8.post1
